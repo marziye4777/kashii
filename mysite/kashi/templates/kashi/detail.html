@@ -1,0 +1,9 @@
+{%extends  'base.html'%}
+
+{% load static %}
+    {%  block content  %}
+        {{kash.name}}
+        <img   width="50%"  src="{{kash.photo.url}}">
+        {{kash.discription}}
+        {{kash.type_kash  }}
+    {%  endblock   %}
